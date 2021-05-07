@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --dark-color: #000;
+    --light-color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html, body{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.container{
+    width: 92%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 62px;
+    font-weight: 300;
+}
+h2{
+    font-size: 43px;
+    font-weight: 300;
+}
+h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+.desc{
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.btn__light{
+    display: inline-block;
+    padding: 15px 60px;
+    border-radius: 10px;
+    background-color: var(--light-color);
+    border: 1px solid var(--dark-color);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    color: var(--dark-color);
+    width: 160px;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.btn__light:hover span{
+    margin-left: 15px;
+    transition: all 0.4s;
+}
+.btn__dark{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: var(--dark-color);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    color: var(--light-color);
+    transition: all 0.4s;
+    width: auto;
+
+}
+
+.btn__light:hover span{
+    margin-left: 15px;
+    transition: all 0.4s;
+    
+}
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaD Webpage</title>
+    <link rel="stylesheet" href="./css/globalStyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3d0a2a792a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="home.html" class="logo">LeaD</a>
+            <div class="menu__icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="main__nav">
+                <li class="nav__item">
+                    <a href="home.html" class="nav__link ">Arbeit</a>
+                </li>
+                <li class="nav__item">
+                    <a href="projekte.html" class="nav__link active">Projekte</a>
+                </li>
+                <li class="nav__item">
+                    <a href="team.html" class="nav__link">Team</a>
+                </li>
+                <li class="nav__item">
+                    <a href="UeberUns.html" class="nav__link">Über Uns</a>
+                </li>
+                <li class="nav__item">
+                    <a href="kontakt.html" class="nav__link">Kontakt</a>
+                </li>
+                <div class="social__icon">
+                    <a href="https://www.facebook.com/" class="icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://twitter.com/?lang=de" class="icon"><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------------projekt slider__head start------------------------>
+    <section class="slider" id='slider'>
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="controller">
+            <button class="prev" id="prev">
+                <i class="fas fa-angle-left"></i>
+            </button>
+            <button class="next" id="next">
+                <i class="fas fa-angle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!------------------------projekt slider__head end------------------------>
+    <!------------------------some projects start------------------------>
+    <section class="project__instruction">
+        <div class="container">
+            <div class="project__intro">
+                <h2>Projekte</h2>
+                <p class="desc">Hier finden Sie eine Auswahl der interessantesten Projekte von Atelier Estimo
+                Architekten: von Neu- und Umbauten im Bereich Wohnen bis hin zu Retail- und Gastronomie-Referenzen.
+                </p>
+            </div>
+            <div class="projects__gallery">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./img/house_indoor3.jpg" alt="">
+                        <h3>Umbau Eigentumswohnung</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas error consequatur vitae quasi vero rem corrupti eos laudantium incidunt inventore!
+                        </p>
+                        <a href="" class="btn__light">Zur Referenz <span>></span></a>
+                    </div>
+                    <div class="col-6">
+                        <img src="./img/house_indoor1.jpg" alt="">
+                        <h3>Umbau Eigentumswohnung</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas error consequatur vitae quasi vero rem corrupti eos laudantium incidunt inventore!
+                        </p>
+                        <a href="" class="btn__light">Zur Referenz <span>></span></a>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./img/house_indoor2.jpg" alt="">
+                        <h3>Umbau Eigentumswohnung</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas error consequatur vitae quasi vero rem corrupti eos laudantium incidunt inventore!
+                        </p>
+                        <a href="" class="btn__light">Zur Referenz <span>></span></a>
+                    </div>
+                    <div class="col-6">
+                        <img src="./img/house_indoor4.jpg" alt="">
+                        <h3>Umbau Eigentumswohnung</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas error consequatur vitae quasi vero rem corrupti eos laudantium incidunt inventore!
+                        </p>
+                        <a href="" class="btn__light">Zur Referenz <span>></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!------------------------some projects end------------------------>
+
+
+
+
+    <!------------------------footer start------------------------>
+    <footer class="footer">
+        <div class="container">
+            <h2>LeaD</h2>
+            <div class="address">
+                <div class="col-4">
+                    <p>Marktplatz 2</p>
+                    <p>CH-4001 Basel</p>
+                </div>
+                <div class="col-4">
+                    <p><a href="tel:061 555 55 25">061 555 55 25</a></p>
+                    <p><a href="mailto:email@lead.ch">email@lead.ch</a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!------------------------footer end------------------------>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
